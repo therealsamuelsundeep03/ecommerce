@@ -1,0 +1,21 @@
+
+  /* pagination styling */
+  .paginateCont{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .pagLink{
+    text-decoration:none;
+    color: #065e0b;
+  }
+  .pagLi{
+    list-style-type: none;
+    display:inline;
+    color: #212121;
+    padding: 1.02rem;
+    border-radius:12px;
+    border: 2px solid #065e0b;
+    background-color: #e8f6ea;
+  }
+

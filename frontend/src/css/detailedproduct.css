@@ -1,0 +1,69 @@
+
+  /* detailed product page styling */
+  .indProd{
+    position: relative;
+    background-color: #fff;
+    box-shadow: 2px 2px 8px 7px rgba(0, 0, 0, 0.1);
+    margin: 5rem 8rem 8rem;
+    max-width: 85%;
+    padding:3rem 3rem;
+    display: flex;
+    /* height: 12rem; */
+  }
+  .indProdImg{
+    margin-right: 7rem;
+  }
+  .indProdImg > img{
+    height: 16rem;
+    max-width: 50rem;
+  }
+  .indTitle{
+    font-size: 18px;
+  }
+  .indDp{
+    color: #088178;
+    font-size: 22px;
+    margin-top: 1.4rem;
+  }
+  .indAp{
+    text-decoration: line-through;
+    margin-right: 1.2rem;
+  }
+  .indOff{
+    margin-top: 0.4rem;
+  }
+  .indStars{
+    background-color: #065e0b;
+    width: 5rem;
+    margin-left: 10rem;
+    color:#fff;
+    padding: 0.2rem;
+    margin-top: 1rem;
+    margin-right: 3rem;
+  }
+  .sp{
+    font-size: 30px;
+    text-align: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .simCont{
+    background-color: #fff;
+    margin: 5rem;
+    padding: 2rem;    
+  }
+  .indstarcart{
+    display: flex;
+
+  }  
+  .detailesAddCart{
+    margin-top: 1rem;
+    outline: none;
+    border: none;
+    background-color:#088178;
+    padding: 0.5rem;
+    border-radius: 10px;
+    color: #fff;
+    width: 10rem;
+  }
+
+

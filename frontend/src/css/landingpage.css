@@ -1,0 +1,445 @@
+.intro{
+    font-family: 'Roboto', sans-serif;
+    background: #222222;
+    background-size:contain;
+    /* color: #fff; */
+    color: lightgray;
+    margin-top:4rem;
+    padding-top: 8rem;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 6rem;
+    height: 100vh;
+    width: 100%;
+    font-size: 1.3rem;
+    position: relative;
+  }
+  .introContent{
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+  }
+  .introHead{
+    line-height: 10rem;
+    word-spacing: 0.3rem;
+    margin-bottom: 2rem;
+  }
+  .introHead > h2{
+    font-size: 40px;
+  }
+  .introImg{
+    max-height: 400px;
+    margin-top: 0rem;
+    margin-bottom: 4rem;
+  }
+  .introImg > img {
+    height: 100%;
+  }
+  .bannerFade{
+    position: absolute;
+    bottom: 0;
+    height: 13rem;
+    background-image: linear-gradient(180deg,transparent,#191717,#111);
+    width: 100%;
+    z-index: 3;
+  }
+  @media screen and (min-width:1300px){
+    .bannerFade{
+     height: 18rem;
+    }
+  }  
+  @media screen and (max-width:942px){
+   .introImg{
+    max-height: 280px;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+   }
+   .bannerFade{
+    height: 15rem;
+   }
+  } 
+  @media screen and (max-width:772px){
+    .introImg{
+     max-height: 200px;
+     margin-top: 4rem;
+     margin-bottom: 4rem;
+    }
+    .introDisc{
+      margin-top: -2rem;
+      font-size: 16px;
+    }
+    .introContent > p{
+      font-size: 16px;
+    }
+   }  
+  @media screen and (max-width:680px){
+    .introImg  >img{
+      display: none;
+    }
+    .introContent{
+      margin: auto;
+      margin-top: -3rem;
+    }
+  }
+  @media screen and (max-width:555px){
+    .introImg >img{
+      height: 50%;
+      margin-top: 2rem;
+    }
+  }
+  @media screen and (max-width:455px){
+    .introImg >img{
+      height: 34%;
+      margin-top: 5rem;
+      padding-right: 0.5rem;
+    }
+    .introContent{
+      padding: 1rem;
+    }
+  }
+  @media screen and (max-width:356px){
+   .intro{
+     font-size: 0.7rem;
+   }
+  }
+  
+  /* about */
+  .about{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 50vh;
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .aboutus{
+    margin-left: -16rem;
+    margin-bottom: 3rem;
+    font-family: cursive;
+  }
+  .aboutImg{
+    margin-left: -17rem;
+  }
+  .about > .row{
+    margin-top: 7rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+  .aboutRow{
+    display: flex;
+    justify-content: space-between;
+  }
+  .aboutContent > p{
+    margin-left: -15rem;
+    font-size: 20px;
+  }
+  .aboutImg{
+    height: 350px;
+  }
+  .aboutImg > img{
+    height: 100%;
+  }
+  @media screen and (max-width:1304px){
+    .aboutImg{
+      margin-right: 4rem;
+      height: 300px;
+      margin-top: 3rem;
+    }
+    .aboutContent{
+      margin-left: 3rem;
+    }
+    .about{
+      height: 50vh;
+    }
+  }
+  @media screen and (max-width:1052px){
+    .aboutImg{
+      margin-right: 6rem;
+      margin-left: -6rem;
+    }
+    .aboutContent{
+      margin-left: 9rem;
+      width: 16rem;
+    }
+    .about{
+      height: 50vh;
+    }
+  }
+  @media screen and (max-width:915px){
+    .about{
+      height: 40vh;
+    }
+    .aboutImg{
+      display: none;
+    }
+    .aboutContent{
+      margin: auto;
+      width: 27rem;
+      margin-left: 8rem;
+    }
+  }
+  @media screen and (max-width:835px){
+    .aboutContent{
+      margin: auto;
+      margin-left: 7rem;
+      width: 25rem;
+    }
+  }
+  @media screen and (max-width:632px){
+    .about{
+      height: 30vh;
+    }
+    .aboutContent > h2{
+      font-size: 20px;
+    }
+    .aboutContent > p{
+      font-size: 18px;
+    }
+  }
+  @media screen and (max-width:684px){
+    .about{
+      margin-top: -4rem;
+      height: 45vh;
+    }
+    .aboutContent{
+      margin: auto;
+      margin-left: 5rem;
+      max-width: 20rem;
+    }
+  }
+  @media screen and (max-width:620px){
+    .about{
+      margin-top: -4rem;
+      height: 35vh;
+    }
+    .aboutContent{
+      margin: auto;
+      margin-left: 7rem;
+      max-width: 12rem;
+    }
+  }
+  @media screen and (max-width:507px){
+    .about{
+      margin-top: -4rem;
+      height: 30vh;
+    }
+    .aboutContent{
+      margin: auto;
+      margin-left: 5rem;
+      max-width: 12rem;
+    }
+  }
+  @media screen and (max-width:466px){
+    .aboutContent{
+      width: 9rem;
+    }
+  }
+  @media screen and (max-width:419px){
+    .aboutContent{
+      width: 7rem;
+      margin-top: -2rem;
+    }
+  }
+  @media screen and (max-width:381px){
+    .about{
+      height: 48vh;
+    }
+  }
+  
+  
+  /* featured */
+  .featured{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 38rem;
+    margin-top: 7rem;
+    background-color: #222222;
+    /* color: #fff; */
+    color: lightgray  ;
+    padding: 1rem;
+  }
+  .featured > h3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .landingCol {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 1.2rem;
+  }
+  .featuredRow{
+    /* box-shadow: 7px 8px 30px rgba(0, 0, 0, 0.2); */
+    padding: 1rem;
+    padding-top: 3rem;
+    margin: 5rem 2rem;
+    height: 22rem;
+    border-radius: 10px;
+  }
+  .landingCard{
+    /* background-color: #3b3838; */
+    background-color: #16161b;
+    border-radius: 10px;
+    height: 17rem;
+  }
+  .lcardimg {
+    margin-top: 8px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+  }
+  @media screen and (max-width:1155px){
+    .landingCol{
+      flex: 50%;
+      max-width: 50%;
+    }
+    .featured{
+      height: 50rem;
+    } 
+    .featuredRow{
+      margin-top: -4rem;
+    }
+    .landingCard{
+      margin-top: 2rem;
+    }
+  }
+  @media screen and (max-width:820px){
+    .lcardimg > a > img {
+      max-height: 10rem;
+      margin-top: 2rem;
+    }
+  }
+  @media screen and (max-width:702px){
+    .featured{
+      height: 88rem;
+      margin-right: 73rem;
+    } 
+    .featuredRow{
+      height: 100vh;
+    }
+
+    .landingCol{
+      flex: 100%;
+      max-width: 70%;
+      margin: auto;
+    }
+    .lcardimg > a > img {
+      max-height: 10rem;
+      margin-top: 2rem;
+    }
+      
+  }
+  @media screen and (max-width:531px){
+    .lcardimg > a > img {
+      max-height: 8rem;
+      margin-top: 2rem;
+    }
+    .landingCard{
+      height: 15rem;
+    }
+  }
+  @media screen and (max-width:446px){
+    .featured{
+      margin-left: 0rem;
+      height: 62rem;
+    }
+    .landingCol{
+      margin: auto;
+    }
+    .lcardimg > a > img {
+      max-height: 6.5rem;
+      margin-top: 0rem;
+    }
+    .landingCard{
+      height: 11rem;
+    }
+  }  
+  @media screen and (max-width:382px){
+    .lcardimg > a > img {
+      max-height: 6rem;
+    }
+    .featured > h3{
+      font-size: 1rem;
+    }
+    .featured{
+      height: 6rem;
+      margin: auto;
+      height: 67rem;
+    } 
+    .landingCard{
+      height: 12rem;
+      width: 15rem;
+      margin-left: -3rem;
+    }
+  }
+  /* footer */
+  .footer{
+    width: 95%;
+    margin-left: 2rem;
+    margin-top: 10rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    /* background-color: #242526;
+    color: #fff; */
+    color: #111;
+  }
+  .footer > div{
+    display: flex;
+  }
+  .footerContent{
+    margin-left: 1.5rem;
+  }
+  .footerImg{
+    height: 37px;
+    margin-right: 18px;
+  }
+  .border{
+    color: black;
+    width: 28rem;
+    margin-bottom: 1.2rem;  
+  }
+  @media screen and (max-width : 623px) {
+    .footer{
+      width:87%
+    }
+    
+  }
+  @media screen and (max-width : 516px) {
+    .footer{
+      width:87%
+    }
+    .footer > div{
+      display: flex;
+      flex-direction: column;
+    }
+    .footerContent{
+      margin-left: 1rem;
+    }  
+  }
+  @media screen and (max-width : 549px) {
+    .border{
+      width: 8rem;
+    } 
+  }
+  @media screen and (max-width : 509px) {
+    .footer{
+      width:84%
+    }
+    .footer > div{
+      display: flex;
+      flex-direction: column;
+    }
+    .footerContent{
+      margin-left: 1rem;
+    }  
+    .border{
+      width: 19rem;
+    }
+  }
+  @media screen and (max-width : 371px) {
+    .footer{
+      width:140%;
+      margin-left: -1rem;
+    }
+  }

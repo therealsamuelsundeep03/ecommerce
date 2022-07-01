@@ -1,0 +1,200 @@
+.ProductSection{
+    margin-top: 10rem;
+}
+.simCard{
+    height: 23rem;
+    max-width: 16rem; 
+    border:2px solid #cce7d0;
+    padding: 12px 12px;
+    transition:0.3s;
+    margin-bottom: 20px;
+  }
+
+  .simCard:hover{
+    box-shadow: 7px 7px 30px rgba(0, 0, 0, 0.1);
+    transform: scale(1.03);
+    color: #212121;
+  }
+  .simImgCont{
+    background-color:#e7e7e7;
+    height: 13.5rem;
+    /* border-radius:14px;  */
+  }
+  .simImg{
+    max-width: 90%;
+    height: 87%;
+    padding: 1rem 0rem 0rem 0rem;
+    border-radius: 14px; 
+  }
+  .simDesc{
+    text-align: start;
+    padding: 10px 0px;
+    font-size: 0.7rem;
+  }
+  .simTitle{
+    margin-top: 0.5rem;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .simDp{
+    color: #088178;
+    font-size: 18px;
+    margin-right:1.2rem;
+  }
+  .simCost{
+    display: flex;
+    padding-right: 8.5rem;
+    justify-content: space-between;
+    padding-left: -0.2rem;
+  }
+  .simDiscount{
+    display: flex;
+    font-size: 14px;
+    margin-top: 0.5rem;
+  }
+  .simStars{
+    background-color: #065e0b;
+    color: #fff;
+    padding: 0.2rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  .simAp{
+    text-decoration: line-through;
+    font-size: 14px;
+    margin-right: 1.02rem;
+  }
+  .detlink{
+    text-decoration: none;
+    color:#212121;
+  }
+  .productCol{
+    position: relative;
+  }
+  .cart{
+    margin-left: 11rem;
+    margin-top: 19rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    color:#088178;
+    background-color: #e8f6ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+  }
+  .cart:hover{
+    cursor: pointer; 
+  }
+  .simSnapStar{
+      height: 2rem;
+  }
+
+  @media screen and (max-width:1200px){
+      .cart{
+          margin-left: 9rem;
+          margin-top: 16rem;
+      }
+      .simImgCont{
+            height: 11.5rem;
+      }
+      .productCol{
+          /* margin-left: -0.7rem; */
+          margin: auto;
+      }
+      .simCard{
+          height: 20rem;
+      }
+  }
+
+  @media screen and (max-width:767px){
+    .productCol{
+      margin: auto;
+      margin-left: 4rem;
+    }
+}  
+@media screen and (max-width:1200px){
+    .cart{
+        margin-left: 8.7rem;
+        margin-top: 13rem;
+    } 
+    .simImgCont{
+          height: 7.5rem;
+    }
+    .productCol{
+        margin-left: 0.7rem;
+        width: 13rem;
+    }
+    .simCard{
+        height: 17rem;
+    }
+}
+@media screen and (max-width:504px){
+    .cart{
+        margin-left: 8.7rem;
+        margin-top: 13rem;
+    } 
+    .simImgCont{
+          height: 7.5rem;
+    }
+    .productCol{
+        /* margin-left: -0.8rem; */
+        width: 13rem;
+    }
+    .simCard{
+        height: 17rem;
+    }
+}
+@media screen and (max-width:426px){
+    .cart{
+        margin-left: 10.7rem;
+        margin-top: 13rem;
+    } 
+    .simImgCont{
+          height: 8.5rem;
+    }
+    .simImgCont > img{
+        margin-left: 1rem;
+    }
+    .productCol{
+        margin-left: 2rem;
+        width: 18rem;
+    }
+    .simCard{
+        height: 17rem;
+    }
+    .simCost{
+        margin-left: 1rem;
+    }
+    .simDiscount{
+        margin-left: 1rem;
+    }
+}
+@media screen and (max-width:388px){
+    .cart{
+        margin-left: 10.7rem;
+        margin-top: 13rem;
+    } 
+    .simImgCont{
+          height: 8.5rem;
+    }
+    .simImgCont > img{
+        margin-left: 1rem;
+    }
+    .productCol{
+        /* margin-left: 0rem; */
+        margin: auto;
+        width: 18rem;
+    }
+    .simCard{
+        height: 17rem;
+    }
+    .simCost{
+        margin-left: 1rem;
+    }
+    .simDiscount{
+        margin-left: 1rem;
+    }
+}

@@ -1,0 +1,54 @@
+.verifedContainer{
+    display:flex
+}
+.animation{
+    background-color: rgb(175, 184, 200);
+    width: 40rem;
+    height: 100vh;
+}
+.animation>h3{
+    margin-bottom: 8rem;
+    margin-top: 4rem;
+    color: rgb(37, 58, 95);
+    font-family: cursive;
+}
+.verifed{
+    margin-top: 8rem;
+    margin-left: 7rem;
+}
+.verifed > h2{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+} 
+.verifybutton{
+    background-color: rgb(37, 58, 95);
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 20rem;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 22px;
+}
+.verifed > p{
+    margin-top: 2rem;
+}
+
+@media screen and (max-width:1246px){
+    .animation{
+        max-width: 30rem;
+    }
+    .animateImg{
+        height: 230px;
+        width: 450px;
+    }
+}
+
+@media screen and (max-width:865px){
+    .verifed{
+        margin: auto;
+        margin-top: 8rem;
+    }
+}
